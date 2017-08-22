@@ -18,7 +18,7 @@ Result/<所识别的数字>.png
 
 ## 评分原理
 1. 所拍摄的二维码图片保存格式为：Result/<所识别的数字>.png（例如：识别的数字为100，则以100.png命名图片保存在Result文件夹里），且文件夹中图片数量不能超过20张（如果超过20张，则由裁判随机抽取20张作为提交结果）。
-2. 图片中二维码面积占整张图片面积不小于10%，且二维码面积占二维码最小包络正方形面积不小于70%（Area(二维码)/Area(正方形包络）≥ 70%）。
+2. 图片中二维码面积占整张图片面积不小于10%，且二维码面积占二维码最小包络正方形面积不小于75%（Area(二维码)/Area(正方形包络）≥ 75%）。
 
 * 图例1：不合格。原因：二维码面积占整张图片面积10%
 <img src="https://github.com/danping/uav_contest/blob/master/doc/contest/p1.png" height="150">
@@ -26,7 +26,7 @@ Result/<所识别的数字>.png
 * 图例2：不合格。原因：二维码面积占包括整个二维码最小正方形面积小于75%
 <img src="https://github.com/danping/uav_contest/blob/master/doc/contest/p2.png" height="200">
 
-* 图例3：不合格。原因：二维码面积占包括整个二维码最小正方形面积小于75%
+* 图例3：不合格。原因：二维码面积占包括整个二维码最小正方形面积小于75% (没有正对标识）
 <img src="https://github.com/danping/uav_contest/blob/master/doc/contest/p3.png" height="200">
 
 * 图例4：合格
